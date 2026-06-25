@@ -12,6 +12,7 @@ export const ALLOWED_TYPES: { [index: string]: string } = {
   docs: "changes to the documentation",
   style: "formatting, missing semi colons, etc; no production code change",
   refactor: "refactoring production code, eg. renaming a variable",
+  perf: "code change that improves performance; no functional/API change",
   test: "adding missing tests, refactoring tests; no production code change",
   update: "update an old feature; file;"
 };
